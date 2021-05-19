@@ -1,0 +1,119 @@
+@import url(_responsive.scss);
+/*VARIABLES*/
+/*ANIDACIONES*/
+body {
+  background-color: #800f25;
+}
+
+section h1 {
+  color: white;
+  font-family: "New Tegomin", serif;
+  font-size: 50pt;
+  text-align: center;
+}
+
+section nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+section nav ul li {
+  transition: all 2s;
+  list-style-type: circle;
+  color: #ff4040;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+section nav ul li :hover {
+  width: 100px;
+  background-color: #f8ceec;
+  background-color: #ffe190;
+  background-image: linear-gradient(316deg, #ffe190 0%, #fa9e8c 74%);
+}
+
+section h2 {
+  color: #ffe190;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30pt;
+}
+
+/*BEM*/
+.informacion__parrafoNumeroUno {
+  color: white;
+  font-family: "New Tegomin", serif;
+  text-indent: 50px;
+  padding-top: 30px;
+}
+
+.objetivos__lucha {
+  color: white;
+  font-family: "New Tegomin", serif;
+  text-indent: 50px;
+  padding-top: 30px;
+}
+
+.listados {
+  color: white;
+}
+
+.listados__feminismos {
+  list-style-type: square;
+  text-align: left;
+  font-family: "New Tegomin", serif;
+}
+
+.contactate {
+  margin: 20px;
+  padding: 30px;
+}
+
+.sec1__titulosPaginas {
+  color: white;
+  font-family: "New Tegomin", serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+.sec2__titulo {
+  color: #ffe190;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50pt;
+}
+
+.sec2__historiaNorma {
+  color: white;
+  font-family: "New Tegomin", serif;
+  font-size: 15pt;
+  text-align: center;
+}
+
+.sec3__normaNassif {
+  width: 400px;
+  height: 400px;
+  border-style: dotted;
+  border-color: chartreuse;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  transition: all 3s;
+}
+
+.sec3__normaNassif:hover {
+  width: 500px;
+  height: 500px;
+}
+
+.contacto {
+  color: white;
+  font-family: "New Tegomin", serif;
+  font-size: 25pt;
+  text-align: left;
+}
+
+.contacto__redes {
+  color: #ffe190;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
